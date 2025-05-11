@@ -22,11 +22,19 @@ body {
   min-width: 100vw;
   min-height: 100vh;
   margin: 0;
+  background-color: #f8f9fa;
 }
 
 main {
   flex-grow: 1;
 }
 main:has(.back-link) {
+  text-align: center;
+}
+
+.nav-list {
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  font-weight: 600;
   text-align: center;
 }
